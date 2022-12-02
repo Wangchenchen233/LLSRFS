@@ -7,3 +7,5 @@ Install the following packages:
 - numpy
 - matplotlib
 - scikit-learn
+- scipy
+- pandas
