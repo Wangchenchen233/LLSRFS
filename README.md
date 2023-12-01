@@ -1,7 +1,10 @@
 # LLSRFS
-This repository provides a reference implementation of LLSRFS as described in the paper "Local Structure Learning and Exponentially Weighted Sparse Regression for Unsupervised Feature Selection".
+This repository provides a reference implementation of LLSRFS as described in the paper "Unsupervised Feature Selection by Learning Exponential Weights".
 
-### Requirements
+## Datasets
+All data sets can be obtained from the UCI machine learning repository (https://archive.ics.uci.edu/ml/datasets.php) or scikit-feature selection repository (https://jundongl.github.io/scikit-feature/datasets.html).
+
+## Requirements
 Install the following packages:
 
 - numpy
@@ -9,3 +12,12 @@ Install the following packages:
 - scikit-learn
 - scipy
 - pandas
+
+## Demo function
+```
+demo.py
+```
+## Parameter search func
+```
+para_search.py
+```
