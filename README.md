@@ -22,9 +22,10 @@ or run the following parameter search function
 ```sh
 para_search.py
 ```
+
 ## Citation
 ```sh
-@article{WANG2023110183,
+@article{WANG2023LLSRFS,
 title = {Unsupervised feature selection by learning exponential weights},
 author = {Chenchen Wang and Jun Wang and Zhichen Gu and Jin-Mao Wei and Jian Liu},
 journal = {Pattern Recognition},
@@ -36,5 +37,5 @@ url = {https://www.sciencedirect.com/science/article/pii/S0031320323008804}
 }
 ```
 # Contact
-If you have any questions, please feel free to contact me with wang@mail.nankai.edu.cn
+If you have any questions, please feel free to contact me with wangc@mail.nankai.edu.cn
 
