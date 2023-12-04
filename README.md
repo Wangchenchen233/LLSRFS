@@ -5,8 +5,6 @@ This repository provides a python implementation of LLSRFS as described in the p
 All data sets can be obtained from the UCI machine learning repository (https://archive.ics.uci.edu/ml/datasets.php) or scikit-feature selection repository (https://jundongl.github.io/scikit-feature/datasets.html).
 
 ## Environment Settings
-Install the following packages:
-
 - numpy
 - matplotlib
 - scikit-learn
