@@ -90,7 +90,7 @@ def dataset_pro(data_name, methods):
     :param data_name: .m file, 'X': n,d; 'Y': n,1
     :return: 'X': n,d; 'Y': n,1
     """
-    data_old = scio.loadmat('D:/Exp/Exp-Datasets/' + data_name + '.mat')
+    data_old = scio.loadmat(data_name + '.mat')
     label = data_old["Y"].astype('int')  # n 1
     unique_label = np.unique(label)
     classes = unique_label.shape[0]
@@ -110,7 +110,7 @@ def dataset_info(data_name, methods):
     :param data_name: .m file, 'X': n,d; 'Y': n,1
     :return: 'X': n,d; 'Y': n,1
     """
-    data_old = scio.loadmat('D:/Exp/Exp-Datasets/' + data_name + '.mat')
+    data_old = scio.loadmat(data_name + '.mat')
     label = data_old["Y"].astype('int')  # n 1
     label_count = pd.DataFrame(data_old['Y'])
     label_info = label_count.value_counts()
