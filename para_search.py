@@ -29,8 +29,8 @@ if __name__ == '__main__':
         Sl_all = np.array(Sl_all)
         np.save(data_name + '.npy', Sl_all)
 
-        paras = [0.001, 0.01]#, 0.1, 1, 10, 100, 1000]
-        paras2 = [0.01, 0.1]#, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+        paras = [0.001, 0.01, 0.1, 1, 10, 100, 1000]
+        paras2 = [0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
         grid_search = [(lamb_b, lamb_p, lamb_r) for lamb_p in paras for lamb_r in paras for lamb_b in paras2]
         # result in diff para
         nmi_result = np.zeros((len(Feature_nums), len(grid_search)))
