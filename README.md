@@ -21,9 +21,6 @@ or run the following parameter search function
 para_search.py
 ```
 
-## Supplementary Material
-You can view the attachment content in the SupplementaryMaterial_double.pdf file
-
 ## Citation
 ```sh
 @article{WANG2023LLSRFS,
