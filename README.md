@@ -21,6 +21,9 @@ or run the following parameter search function
 para_search.py
 ```
 
+## Supplementary Material
+You can view the attachment content in the SupplementaryMaterial_double.pdf file
+
 ## Citation
 ```sh
 @article{WANG2023LLSRFS,
@@ -34,6 +37,6 @@ doi = {https://doi.org/10.1016/j.patcog.2023.110183},
 url = {https://www.sciencedirect.com/science/article/pii/S0031320323008804}
 }
 ```
-# Contact
+## Contact
 If you have any questions, please feel free to contact me with wangc@mail.nankai.edu.cn
 
